@@ -1,9 +1,7 @@
 export default function Summary() {
   return (
-    <div>
-      <div className="underline text-center rounded-md shadow-inner">
-        About Me
-      </div>
+    <div className="w-2/3 mx-auto bg-indigo-400 rounded-md shadow-inner p-5 my-5">
+      <h2 className="underline text-center ">About Me</h2>
       <p className="text-center">
         Hey! I'm Nana, a final year Computer Science student at Queen's
         Univerity. Over a years experience as a Full Stack web developer
