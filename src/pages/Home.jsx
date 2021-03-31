@@ -8,9 +8,19 @@ import Projects from "./../components/Projects";
 export default function Home() {
   // create projects object with title and description
   const projects = {
-    title: ".dotfiles",
-    description: "My dotfiles",
+    ".dotfiles": {
+      title: ".dotfiles",
+      description: "My dotfiles that I take with me everywhere.",
+      stack: ["Lua", "Bash"],
+    },
+    "glass-o-milk": {
+      title: "Glass of Milk",
+      description:
+        "A web app to help you make healthier eating choices by providing healthy meals you can make with items in your fridge.",
+      stack: ["TailwindCSS", "ReactJS", "Strapi", "Docker", "Kubernetes"],
+    },
   };
+
   return (
     <div className="h-screen bg-indigo-300 flex flex-col justify-center">
       {/*Name*/}
