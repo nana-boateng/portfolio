@@ -8,7 +8,7 @@ export default function Quote() {
   };
 
   return (
-    <div className="text-center text-black">
+    <div className="text-center text-black my-6">
       <div>{quote.text}</div>
       <div>{quote.author}</div>
     </div>

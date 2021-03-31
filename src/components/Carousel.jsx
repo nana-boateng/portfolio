@@ -3,7 +3,7 @@ import { GrNode } from "react-icons/gr";
 
 export default function Carousel() {
   return (
-    <div className="flex flex-row justify-evenly w-1/3 mx-auto">
+    <div className="flex flex-row justify-evenly w-1/3 mx-auto my-6">
       <FaGit className={`h-10 w-10`} />
       <FaJira className={`h-10 w-10`} />
       <GrNode className={`h-10 w-10`} />
