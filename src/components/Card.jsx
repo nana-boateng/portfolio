@@ -1,10 +1,7 @@
-import React from "react";
-
-export default function Card({ header, content }) {
+export default function Card({ colour = "white", style, ...props }) {
   return (
-    <div className="border h-24 w-24">
-      <div>{header}</div>
-      <div>{content}</div>
+    <div className={`h-max w-52 bg-${colour} rounded-md shadow-sm ${style}`}>
+      {props.children}
     </div>
   );
 }
