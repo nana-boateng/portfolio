@@ -9,7 +9,7 @@ export default function Quote() {
 
   return (
     <div className="text-center text-black my-6">
-      <div>{quote.text}</div>
+      <div>"Beauty is not in the face; beauty is a light in the heart."</div>
       <div>{quote.author}</div>
     </div>
   );
