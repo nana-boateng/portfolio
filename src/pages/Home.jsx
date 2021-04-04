@@ -1,9 +1,11 @@
 // components
-import Summary from "../components/Summary";
+// import Summary from "../components/Summary";
 import PageHeader from "./../components/PageHeader";
 import Quote from "./../components/Quote";
-import Carousel from "./../components/Carousel";
-import Projects from "./../components/Projects";
+// import Carousel from "./../components/Carousel";
+// import Projects from "./../components/Projects";
+import ArrowDown from "./../components/icons/ArrowDown";
+import ContactIcons from "./../components/ContactIcons";
 
 export default function Home() {
   // create projects object with title and description
@@ -22,17 +24,30 @@ export default function Home() {
   };
 
   return (
-    <div className="h-screen bg-indigo-300 flex flex-col justify-center">
-      {/*Name*/}
-      <PageHeader title="nana." />
-      {/* Quote  */}
-      <Quote />
+    <div className="h-screen bg-celeste flex flex-col justify-between">
+      <div>
+        <ContactIcons />
+      </div>
+
+      <div className="mx-auto ">
+        <PageHeader title="nana" />
+        <div className="flex flex-row text-2xl space-between">
+          <div className="animate-fade-in-up mx-3">software developer </div>
+          <div>/</div>
+          <div className="animate-fade-in-up mx-3">computer scientist</div>
+        </div>
+      </div>
+
+      <div className="mx-auto my-3">
+        <Quote />
+        <ArrowDown />
+      </div>
       {/* Summary */}
-      <Summary />
+      {/* <Summary /> */}
       {/* Software Carousel  */}
-      <Carousel />
+      {/* <Carousel /> */}
       {/* Project Cards  */}
-      <Projects projects={projects} />
+      {/* <Projects projects={projects} /> */}
     </div>
   );
 }
