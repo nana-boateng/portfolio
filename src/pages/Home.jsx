@@ -17,7 +17,7 @@ export default function Home() {
       title: "Glass of Milk",
       description:
         "A web app to help you make healthier eating choices by providing healthy meals you can make with items in your fridge.",
-      stack: ["TailwindCSS", "ReactJS", "Strapi", "Docker", "Kubernetes"],
+      stack: ["CSS3", "React", "Strapi", "Docker", "Kubernetes"],
     },
   };
 
