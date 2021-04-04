@@ -14,13 +14,13 @@ export default function Projects({ projects }) {
           <div
             className={`flex flex-col justify-between bg-yellow-200 w-52 mx-3 min-h-full rounded-md p-2 transform transition duration-200 hover:bg-yellow-300 hover:scale-105 hover:-translate-y-2`}
           >
-            <div className="text-center font-bold text-xl my-3">{title}</div>
-            <div className="text-center">{description}</div>
-            <div className="flex flex-row justify-evenly my-3 ml-6">
+            <div className="text-center font-bold text-xl">{title}</div>
+            <div className="text-center my-6">{description}</div>
+            <div className="flex flex-row justify-evenly my-3">
               {stack.map((item) => {
                 return (
                   getIcons(item) && (
-                    <div className="h-16 w-10 ">{getIcons(item)}</div>
+                    <div className="h-6 w-6 ">{getIcons(item)}</div>
                   )
                 );
               })}
