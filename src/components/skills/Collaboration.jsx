@@ -13,7 +13,7 @@ export default function Collaboration() {
 
   return (
     <div
-      className={`flex flex-row p-3 justify-evenly h-max w-full rounded-xl shadow-md mx-auto bg-indigo`}
+      className={`flex flex-row py-3 px-3 justify-evenly h-max w-max rounded-xl shadow-md mx-auto bg-indigo`}
     >
       <button
         onMouseOver={() => changeTitle("Git")}
