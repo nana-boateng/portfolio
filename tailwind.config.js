@@ -3,6 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sofia: ["Sofia", "sans-serif"],
+        quick: ["Quicksand", "serif"],
+        lato: ["Lato", "mono"],
+      },
       colors: {
         celeste: "#9BF6FF",
         orange: "#ffd6a5",
