@@ -30,6 +30,26 @@ module.exports = {
             transform: "translateY(0)",
           },
         },
+        "fade-in-left": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-10px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        "fade-in-right": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(10px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
         "fade-out-down": {
           from: {
             opacity: "1",
@@ -66,6 +86,8 @@ module.exports = {
         "fade-out-down": "fade-out-down 0.5s ease-out",
         "fade-in-up": "fade-in-up 0.5s ease-out",
         "fade-out-up": "fade-out-up 0.5s ease-out",
+        "fade-in-left": "fade-in-left 0.5s ease-out",
+        "fade-in-right": "fade-in-right 0.5s ease-out",
       },
     },
   },

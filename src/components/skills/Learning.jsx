@@ -4,7 +4,7 @@ export default function Learning() {
 
   return (
     <div className="">
-      <div className="font-lato text-2xl text-center align-middle">
+      <div className="font-lato text-2xl text-center align-middle transition delay-1000 animate-fade-in-right ">
         and learning ...
       </div>
       <ul className="flex flex-wrap justify-center">

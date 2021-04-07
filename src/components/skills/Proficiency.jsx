@@ -1,10 +1,10 @@
 export default function Proficiency() {
   const style =
-    "bg-powder opacity-60 duration-300 text-black hover:opacity-100 shadow-lg rounded-md w-max m-3 p-3";
+    "bg-powder opacity-60 duration-300 text-black transition hover:opacity-100 shadow-lg rounded-md w-max m-3 p-3";
 
   return (
     <div className="">
-      <div className="font-lato text-2xl text-center ">
+      <div className="font-lato text-2xl text-center transition animate-fade-in-right ">
         I am proficient in ...
       </div>
       <ul className="flex flex-wrap">

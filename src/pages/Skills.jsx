@@ -7,16 +7,16 @@ import OtherSkills from "../components/skills/OtherSkills";
 export default function Skills() {
   return (
     <div className="h-screen bg-pink flex flex-col justify-between items-center">
-      <Nav style={`text-xl font-bold my-4`}>
+      <Nav style={`text-4xl font-bold font-lato font-bold text my-4`}>
         <NavItem>
-          <div>skills</div>
+          <div>Skills</div>
         </NavItem>
-        <NavItem>
+        {/* <NavItem>
           <div>projects</div>
         </NavItem>
         <NavItem>
           <div>timeline</div>
-        </NavItem>
+        </NavItem> */}
       </Nav>
 
       <div className="flex flex-col h-full my-4 justify-between">
