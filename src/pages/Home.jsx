@@ -11,13 +11,11 @@ export default function Home() {
       <nav>
         <Navbar />
       </nav>
-      <div>
+      <div className="flex flex-col mx-auto h-max">
         <Header />
-      </div>
-      <div className="mx-auto ">
         <Shortcuts />
       </div>
-      <div className="flex flex-col justify-between p-2 mx-auto my-2">
+      <div className="flex flex-col justify-between p-2 mx-auto mb-6">
         <Quote />
         <NextPage />
       </div>

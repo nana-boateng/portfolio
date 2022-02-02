@@ -7,7 +7,9 @@ export default function NavItem({ item }) {
     <div>
       {item === "nav" ? (
         <div className="">
-          <div className="px-2 py-4 text-xl lg:hidden xl:hidden">nav</div>
+          <div className="px-2 py-4 text-xl md:hidden lg:hidden xl:hidden">
+            nav
+          </div>
           <div className="hidden text-xl md:flex lg:flex ">
             <NavButton nav={"home"} />
             <Separator />
@@ -17,8 +19,10 @@ export default function NavItem({ item }) {
           </div>
         </div>
       ) : (
-        <div>
-          <div className="px-2 py-4 text-xl lg:hidden">connect</div>
+        <div className="">
+          <div className="px-2 py-4 text-xl md:hidden xl:hidden lg:hidden">
+            connect
+          </div>
           <div className="hidden text-xl md:flex lg:flex ">
             <NavButton nav={"code"} />
             <Separator />
